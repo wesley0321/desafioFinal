@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto ', serif;
+}
+
+h2{
+    font-family: 'Roboto Serif', serif
+}
+
+header {
+    background-color: #252525;
+    height: 13vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+header div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 11vw;
+
+}
+
+header div img {
+    width: 3vw;
+
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    width: 15vw;
+    justify-content: space-around;
+
+}
+
+header nav a img {
+    width: 3vw;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.primeiraSessao {
+    background-image: url("./assets/cachorroChapeu.png");
+    background-size: 100% 100%;
+    height: 130vh;
+    font-size:51px;
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+
+}
+
+.primeiraSessao img {
+    margin-top: 50px;
+}
+
+.segundaSessao {
+    height: 130vh;
+    background-image: url("./assets/cachorroleao.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.segundaSessao div {
+    margin-left: 50px;
+    width: 30vw;
+    height: 50vh;
+    font-size: 27px;
+}
+
+.segundaSessao h2 {
+    margin-bottom: 45px;
+}
+
+#botao1 {
+    width: 15vw;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: #252525;
+    color: aliceblue;
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.terceiraSessao {
+    background-image: url("./assets/cachorroPreto.png");
+    height: 130vh;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.terceiraSessao div {
+    margin-right: 50px;
+    width: 30vw;
+    height: 60vh;
+    font-size: 27px;
+    color: white;
+}
+
+#botao2 {
+    width: 15vw;
+    height: 8vh;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    margin-top: 40px;
+    border: snow;
+    font-size: 18px;
+}
+
+.terceiraSessao h2 {
+    margin-bottom: 45px;
+}
+
+.apoio {
+    height: 25vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FD6A9A;
+}
+
+.apoio img{
+    width: 20vw;
+   
+}
+
+.apoio figure{
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60vh;
+    background-color: #FD6A9A;
+    font-size: 14px;
+    color: white;
+}
+
+footer h2 {
+    margin-bottom: 20px;
+}
+
+footer p {
+    margin: 15px;
+}
+
+
+
+
+@media (max-width: 500px) {
+
+    .youtube {
+        display: none;
+    }
+
+    .instagram {
+        display: none;
+    }
+
+    .whatsapp {
+        width: 10vw;
+    }
+
+
+
+    .logoDesk {
+        width: 9vw;
+        margin: 10px;
+    }
+
+
+    header {
+        font-size: 20px;
+
+    }
+
+
+    .primeiraSessao {
+        background-image: url("./assets/chapeuMobile.png");
+        font-size: 30px;
+    }
+
+    .segundaSessao {
+        background-image: url("./assets/leaoMobile.png");
+        align-items: flex-start;
+    }
+
+    .segundaSessao div {
+        width: 80vw;
+        
+        height: 70vh;
+        margin-top: 20px;
+    }
+
+    .segundaSessao h2 {
+        margin-bottom: 10px;
+    }
+
+    #botao1, #botao2 {
+        margin-top: 20px;
+        width: 60vw;
+        font-weight: 700;
+        
+    }
+
+    .terceiraSessao{
+        background-image: url("./assets/pretinhoMobile.png");
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .terceiraSessao div {
+        width: 80vw;
+
+    }
+
+    .apoio {
+        flex-direction: column;
+        height: 15vh;
+    }
+
+    .apoio figure{
+        width: 80vw;
+    }
+
+    .apoio img{
+        width: 30vw;
+    }
+
+    footer{
+        flex-direction: column;
+        height: 100vh;
+        text-align: center;
+    }
+}
